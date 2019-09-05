@@ -1,7 +1,7 @@
 <?php
     $dsn = 'mysql:dbname=team4;host=localhost;charset=utf8';
     $user = 'root';
-    $password = 'pdH301LX5nKQ';
+    $password = '';
 
     $people = $_POST['people'];
     $comment = $_POST['comment'];
