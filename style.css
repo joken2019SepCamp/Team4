@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body {
+	background-image: url("images/background.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+h1{
+}
+p{
+	fomt-size: 20px;
+}
+section {
+	border-width: medium;
+	border-style: solid;
+}
+footer {
+	text-align: right;
+}

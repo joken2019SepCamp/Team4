@@ -1,0 +1,261 @@
+﻿@charset "UTF-8";
+
+body {
+	background-image: url("image/PAK885_yumeututu15192521_TP_V.jpg");
+	background-repeat: no-repeat;
+	background-attachment:
+	fixed;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+h1, h2 ,h3, h4, h5, h6 {
+	font-family: 'メイリオ', 'MS Pゴシック' ,sans-serif;
+	color: #222;
+	line-height: 1.5;
+}
+h1 {
+	text-shadow: 5px 5px 6px #666b70;
+	border-bottom: 1px solid #999;
+	padding-bottom: 20px;
+}
+
+p {
+ line-height: 1.7;
+}
+.price {
+	text-align: right;
+}
+
+table {
+	border: 2px solid #999;
+	border=collapse: collapse;
+}
+
+th, td {
+	border: 2px solid #999;
+	padding: 8px;
+}
+
+
+
+
+td{
+	color: navy;
+}
+.lead {
+	color: #000080;
+	line-height: 1;
+}
+
+.global-nav {
+	font-size: 13px;
+	padding: 0px 15px;
+	background-color: #333;
+}
+
+.nav-list {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav-item {
+	display: inline-block;
+	color: #fff;
+	padding: 13px 15px;
+}
+
+a:link {
+	color: #6666cd;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav-item:hover {
+	background: #77293d;
+}
+
+.nav-item a:link {
+	color: #fff;
+}
+
+.nav-item a:visited {
+	color: #fff;
+}
+.wrapper {
+	width: 100%;
+	overflow: auto;
+}
+
+.main-content {
+	float: left;
+	width: 65%;
+}
+
+.sidebar {
+	float: right;
+	width: 30%;
+	padding-top: 24px;
+}
+
+/* --- ボタン1 --- */
+input.btn1 {
+width: 10em; /* ボタンの幅 */
+height: 1.8em; /* ボタンの高さ */
+padding: 0; /* パディング */
+background: #808080 url(btn01.gif); /* ボタンの背景 */
+border: 1px #808080 inset; /* 境界線 */
+font-weight: bold; /* 太字 */
+color: #ffffff; /* 文字色 */
+letter-spacing: 0.3em; /* 文字間のスペース */
+}
+
+/* --- ボタン2 --- */
+input.btn2 {
+width: 10em;
+height: 1.8em;
+padding: 0;
+background: #8080ff url(btn03.gif);
+border: 1px #8080ff inset;
+font-weight: bold;
+color: #ffffff;
+letter-spacing: 0.3em;
+}
+
+/* --- ボタン3 --- */
+input.btn3 {
+width: 8em;
+height: 1.8em;
+padding: 0;
+background: #8080ff url(btn03.gif);
+border: 1px #8080ff inset;
+font-weight: bold;
+color: #ffffff;
+letter-spacing: 0.3em;
+}
+
+/* --- ボタン4 --- */
+input.btn4 {
+width: 8em;
+height: 1.8em;
+padding: 0;
+background: #8080ff url(btn03.gif);
+border: 1px #8080ff inset;
+font-weight: bold;
+color: #ffffff;
+letter-spacing: 0.3em;
+}
+
+/* --- ボタン5 --- */
+input.btn5 {
+width: 8em;
+height: 1.8em;
+padding: 0;
+background: #8080ff url(btn03.gif);
+border: 1px #8080ff inset;
+font-weight: bold;
+color: #ffffff;
+letter-spacing: 0.3em;
+}
+
+/* --- ボタン6 --- */
+input.btn6 {
+width: 8em;
+height: 1.8em;
+padding: 0;
+background: #8080ff url(btn03.gif);
+border: 1px #8080ff inset;
+font-weight: bold;
+color: #ffffff;
+letter-spacing: 0.3em;
+}
+
+/* --- ボタン7 --- */
+input.btn7 {
+width: 8em;
+height: 1.8em;
+padding: 0;
+background: #8080ff url(btn03.gif);
+border: 1px #8080ff inset;
+font-weight: bold;
+color: #ffffff;
+letter-spacing: 0.3em;
+}
+form.search {
+margin: 0;
+}
+
+/* --- ボックス --- */
+form.search div {
+width: 388px; /* ボックスの幅 */
+padding: 1px 0; /* ボックスのパディング（上下、左右） */
+background-color: #ffffff; /* ボックスの背景色 */
+border: 1px #808080 solid; /* ボックスの境界線 */
+}
+
+/* --- テキストボックス --- */
+form.search input.textBox {
+width: 298px; /* テキストボックスの幅 */
+margin: 0 4px 0 5px; /* テキストボックスのマージン（上右下左） */
+padding: 0;
+background-color: #ffffff; /* テキストボックスの背景色 */
+border: none; /* テキストボックスの境界線（なし） */
+color: #000000;
+}
+
+/* --- ボタン --- */
+form.search input.btn {
+width: 80px; /* ボタンの幅 */
+height: 1.8em; /* ボタンの高さ */
+padding: 0;
+background: #c08000 url(btn05.gif); /* ボタンの背景 */
+border: 1px #c08000 inset; /* ボタンの境界線 */
+font-weight: bold;
+color: #000000;
+letter-spacing: 0.3em; /* 文字間のスペース */
+}
+/* --- ページングエリア --- */
+div.paging {
+margin: 20px 0;
+}
+
+/* --- メニューエリア --- */
+div.paging ul.nl {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center; /* メニューのセンタリング */
+font-size: 100%; /* メニューの文字サイズ */
+}
+/* --- メニュー項目 --- */
+div.paging ul.nl li {
+display: inline;
+margin-right: 5px; /* 項目の右マージン */
+}
+
+/* --- アクティブな項目 --- */
+div.paging ul.nl li strong {
+color: #cc0000; /* 項目の文字色 */
+}
+
+/* --- リンクしない項目（前へ・次へ） --- */
+div.paging ul.nl li span {
+color: #808080; /* 項目の文字色 */
+}
+.box7{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: double 7px #4ec4d3;/*左線*/
+    border-right: double 7px #4ec4d3;/*右線*/
+}
+.box7 p {
+    margin: 0; 
+    padding: 0;
+}

@@ -1,0 +1,69 @@
+﻿@charset "UTF-8";
+
+.top-image {
+	background-color: #fafafa;
+	background-image: url(image/featured-medly.png);
+	background-repeat: repeat-y;
+	height: 500px;
+	width: 940px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.catchcopy {
+	color: #222;
+	position: absolute;
+	top: 40px;
+	right: 65px;
+	width: 320px;
+}
+
+.catchcopy h2 {
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.catchcopy p {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 33px;
+}
+
+
+.news {
+	font-size: 16px;
+	border: 0px;
+	width: 90%;
+}
+
+.news th, .news td {
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+.news th {
+	border-top-width: 0px;
+}
+
+.date {
+	padding-left: 25px;
+}
+
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}

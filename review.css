@@ -1,0 +1,12 @@
+/*いいね・よくないねボタンの修飾*/
+
+#iine
+{
+    max-width:50px; /*いいねボタンの幅*/
+    height:auto; /*高さ*/
+    position: fixed; /*ボタンの配置法*/
+    bottom: 16px; /*ボタンの配置位置*/
+    left: 16px;
+    display: block; /*表示形式*/
+    text-decoration: none; /*テキストの修飾*/
+}

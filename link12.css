@@ -1,0 +1,12 @@
+﻿@charset "UTF-8";
+
+.link {
+	width: 100%;
+}
+.link img {
+	border: 2px white solid;
+}
+
+small {
+	font-size: 12px;
+}
